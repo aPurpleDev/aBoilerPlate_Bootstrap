@@ -2,46 +2,91 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <meta name="theme-color" content="#fafafa">
+    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-  <h1>PHP Boilerplate</h1>
+<div class="container-fluid bg-info text-center border border-secondary"><h1>PHP Boilerplate</h1></div>
 
-  <p class="article">This is a paragraph. It contains text content for the webpage. This is an <em> important phrase to highlight </em></p>
+<ul class="nav justify-content-center border bg-light border-dark">
+    <li class="nav-item">
+        <a class="nav-link active text-info" href="index.php">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Page 2</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Page 3</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Page 4</a>
+    </li>
+</ul>
 
-  <ul>This is an unordered list:
-  <br>
-  <br>
-  <li>With a first line</li>
-  <li>And a last line</li>
-  </ul>
+<div class="container">
 
-<div>This is a text block</div>
-<br>
-<h2>Followed by a table</h2>
-<table>
- <tr>
-   <th>Column 1</th>
-   <th>Column 2</th>
- </tr>
- <tr>
-   <td>Value 1</td>
-   <td>Value 2</td>
- </tr>
-</table>
+    <div class="row">
+
+        <div class="col">
+
+            <div class="card border border-info" style="width: 18rem;">
+
+                <img class="card-img-top" style="width: 18rem;" src="ressources/images/lotus.jpg" alt="Card image cap">
+
+                <div class="card-body">
+                    <h5 class="card-title">a Card</h5>
+                    <p class="card-text">This is a card highlighting an image </p>
+                    <p class="card-text">
+                        <small class="text-muted"><em>This can be used for addendums</em></small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h1>This is a title</h1>
+            <p>This is a paragraph. It contains text content for the webpage. This is an <em> important phrase to
+                highlight </em></p>
+
+            <ul class="list-group"><h3>This is an unordered list:</h3>
+                <br>
+                <br>
+                <li class="list-group-item list-group-item-primary">With a primary line</li>
+                <li class="list-group-item list-group-item-secondary">And a secondary line</li>
+            </ul>
+            <br>
+            <h3>Followed by a table</h3>
+            <table class="table">
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<footer id="sticky-footer" class="py-4 bg-info border border-secondary">
+    <div class="container text-center">
+        <small>&copy;Chemseddine Henni</small>
+    </div>
+</footer>
+</div>
 
 </body>
 
